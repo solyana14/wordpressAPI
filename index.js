@@ -21,7 +21,7 @@ app.options('/posts/:id', cors())
     Post.findById(id)
     .then((result)=>{
         res.json(result)
-        console.log('wuhuuu founddd the post with id')
+        console.log('made a few changes here the post with id')
     }).catch((err)=>{
         //console.log(err)
         res.status(404).send(`no document with this id ${err}`)
