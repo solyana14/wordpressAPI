@@ -1,0 +1,7 @@
+{
+    "env": {
+      "MONGO_URL": "user:password@mydb.com",
+      "MY_API_TOKEN": "XXXXX",
+      "NODE_ENV":"production"
+    }
+  }
